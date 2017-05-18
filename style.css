@@ -1,0 +1,42 @@
+body{
+	background-color: rgb(214, 209, 177);
+	padding: 0px;
+	margin: 0px;
+}
+#wrapper{
+	text-align: center;
+}
+.h1-img{
+	width: 150px;
+	height: 80px;
+	background-color: white;
+}
+.git-div{
+	display: inline-block;
+	width: 100px;
+	height: 100px;
+	margin: 8px 4px;
+	/*text-align: center;
+	vertical-align: middle;*/
+	outline: 3px black solid;
+	border: 10px transparent solid;
+
+}
+.git-div img{
+	width: 100%;
+	height: 100%;
+	padding: 0px;
+}
+.git-div:nth-child(even){
+	border-color: rgb(119, 182, 234);
+}
+/*
+note
+.git-div imgLnth-child(even)
+doesn't work because this sytax would refer to the nth image
+within this div. But each of these divs just has one image in it.
+*/
+
+.git-div:nth-child(odd ){
+	background-color: rgb(252, 100, 113);
+}
